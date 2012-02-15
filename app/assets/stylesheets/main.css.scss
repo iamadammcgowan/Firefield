@@ -1,0 +1,19 @@
+#ff_header_container {
+ background-color: black; 
+}
+
+#ff_header { 
+	margin: 0 auto;
+  width: 960px;
+  height: 150px;
+  background: url("firefield_header.png");
+}
+
+#ff_tagline {
+  margin-top: 50px;
+  width: 550px;
+  float: right;  
+  font-size: 2.5em;
+  color: white; 
+}
+
