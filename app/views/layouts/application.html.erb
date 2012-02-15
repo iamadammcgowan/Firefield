@@ -8,6 +8,14 @@
     <%= csrf_meta_tags %>
   </head>
   <body>
-    <%= yield %>
+    <div id="wrapper" class="<%= controller.controller_name %> <%= controller.action_name %>">
+      <%= render :partial => '/shared/header' %>
+      <div class="container_24">  
+        <%= yield %> 
+      </div>
+    </div>    
+    <div id="footer_container">
+      <div id="footer">This is the footer</div>
+    </div>    
   </body> 
 </html>

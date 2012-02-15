@@ -1,10 +1,17 @@
-#ff_header_container {
- background-color: black; 
+html, body { height: 100%;}  
+
+#ff_header_container, #footer_container, #header_container {
+ background-color: #000; 
+}
+
+#ff_header, #header, #footer {
+  margin-left: auto;
+  margin-right: auto;
+  width: 960px;
+  color: #FFF;
 }
 
 #ff_header { 
-	margin: 0 auto;
-  width: 960px;
   height: 150px;
   background: url("firefield_header.png");
 }
@@ -14,7 +21,21 @@
   width: 550px;
   float: right;  
   font-size: 2.5em;
-  color: white; 
   font-family: 'Gruppo', sans-serif;
 }
 
+#footer { 
+  margin-top: 10px;
+  height: 40px;
+}
+
+#header {
+  height: 40px;
+}
+
+#wrapper {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  margin: 0 auto -40px; /* the bottom margin is the negative value of the footer's height */
+}
