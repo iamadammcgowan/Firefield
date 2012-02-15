@@ -12,7 +12,10 @@
 
 # Ignore all logfiles and tempfiles.
 /log/*.log
-/tmp   
+/tmp  
+/tmp/**/*
+tmp/   
 
 # Ignore the ds file
 .DS_Store
+
