@@ -8,6 +8,8 @@
   </div>
 <% else %>
   <div id="header_container">
-    <div id="header"><%= link_to "Click to return home", root_path %></div>
+    <div id="header">
+      <a href="<%= root_path %>"><div id="header_logo"></div></a>
+    </div>
   </div>
 <% end %>
