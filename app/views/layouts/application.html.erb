@@ -2,6 +2,8 @@
 <html>
   <head>
     <title>Firefield</title>
+    <link rel="shortcut icon" type="image/png" href="/assets/favicon.png" />  
+    <link rel="apple-touch-icon" href="assets/apple-touch-icon.png" />
     <link href='http://fonts.googleapis.com/css?family=Gruppo|Droid+Sans|Inder|Lato' rel='stylesheet' type='text/css'>
     <%= stylesheet_link_tag    "application" %>
     <%= javascript_include_tag "application" %>
@@ -15,7 +17,27 @@
       </div>
     </div>    
     <div id="footer_container">
-      <div id="footer">This is the footer</div>
+      <div id="footer">
+        <span id="copyright">Copyright Firefield, LLC 2012</span>
+        <ul class="nav_list">
+          <!--
+          <li><#%= link_to "Connections", connect_path %></li>
+          <li><#%= link_to "Consultation", consult_path %></li> 
+          <li><#%= link_to "Collaboration", collaborate_path %></li> 
+          <li><#%= link_to "Inspiration", inspiration_path %></li> 
+          <li><#%= link_to "Talent", talent_path %></li> 
+          <li><#%= link_to "Capital", capital_path %></li> 
+          --> 
+          <li><%= link_to "Home", root_path %></li>
+          <li><%= link_to "About Us", about_path %></li> 
+          <li><%= link_to "Get in Touch", contact_path %></li>
+          <!-- 
+          <li><#%= link_to "Terms", terms_path %></li>
+          --> 
+          <div class='clear'></div>
+        </ul>
+        <div class="clear"></div>
+      </div>
     </div>    
   </body> 
 </html>
