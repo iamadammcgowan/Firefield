@@ -33,6 +33,25 @@ body{min-width:960px}
 		margin-right:5px
 	}
 	
+	.grid_1d,
+	.grid_2d,
+	.grid_3d,
+	.grid_4d,
+	.grid_5d,
+	.grid_6d,
+	.grid_7d,
+	.grid_8d,
+	.grid_9d,
+	.grid_10d,
+	.grid_11d,
+	.grid_12d
+		{
+			display:inline;
+			float:left;
+			margin-left:10px;
+			margin-right:10px
+		}	
+	
 .push_1, .pull_1,
 .push_2, .pull_2,
 .push_3, .pull_3,
@@ -87,6 +106,19 @@ body{min-width:960px}
 .container_24 .grid_22{width:870px}
 .container_24 .grid_23{width:910px}
 .container_24 .grid_24{width:950px}
+ 
+.container_24 .grid_1d{width:60px}
+.container_24 .grid_2d{width:140px}
+.container_24 .grid_3d{width:220px}
+.container_24 .grid_4d{width:300px}
+.container_24 .grid_5d{width:380px}
+.container_24 .grid_6d{width:460px}
+.container_24 .grid_7d{width:540px}
+.container_24 .grid_8d{width:620px}
+.container_24 .grid_9d{width:700px}
+.container_24 .grid_10d{width:780px}
+.container_24 .grid_11d{width:860px}
+.container_24 .grid_12d{width:940px}
 
 .clear{
 	clear:both;

@@ -2,11 +2,15 @@ html, body {
   height: 100%;
 }
 
-body {
+body, .wufoo {
 	/*font-family: 'Droid Sans', sans-serif; */  
 	font-family: 'Lato', sans-serif;
 	font-size:100%;
   line-height:1.125em; /* 16×1.125=18 */
+} 
+
+a {
+  color: #729E1B;
 }
 
 #ff_header_container, #footer_container, #header_container {
@@ -33,6 +37,12 @@ body {
   font-family: 'Gruppo', sans-serif;
 }
 
+#header_logo {
+  height: 24px; 
+  width: 147px;
+  background: url("header_logo.png");  
+}
+
 #footer { 
   margin-top: 10px;
   height: 40px;
@@ -42,19 +52,15 @@ body {
   }
 }
 
-#header {
-  height: 40px;  
-  
-  a {
-    color: #FFF;
-  }
+#header_container { 
+  padding: 6px 0;
 }
 
 #wrapper {
   min-height: 100%;
   height: auto !important;
   height: 100%;
-  margin: 0 auto 0px; /* the bottom margin is the negative value of the footer's height */
+  margin: 0 auto -40px; /* the bottom margin is the negative value of the footer's height */
 } 
 
 
@@ -74,7 +80,92 @@ body {
   height: 179px;
   width: 179px;
   background: url("avatar_3.jpg");
+} 
+
+.adam_avatar { 
+  height: 180px;
+  width: 180px;
+  background: url("adam_headshot.jpg");
+} 
+
+.adam_avatar:hover { 
+  height: 180px;
+  width: 180px;
+  background: url("adam_avatar.jpg");
 }
+
+.logo_lg { 
+  height: 178px;
+  width: 178px;
+  background: url("logo_lg.png");
+}
+ 
+.icon_55 {
+  height: 55px;
+  width: 55px;
+  background: url('icons_55_trans.png') no-repeat #a5ca5c; 
+}
+
+.icon_55:hover {
+  background-color: #cdcdcd;
+} 
+  
+.icon_55.connect {background-position:  -165px -55px;}
+.icon_55.collaborate {background-position: 0px -110px;}
+.icon_55.consult {background-position: -275px -110px;}
+
+.icon_55_span {
+  line-height: 55px; 
+  margin-left: 10px;
+  font-size: 2.25em;  
+}
+
+.lead_paragraph { 
+  text-align: center;
+  font-size: 1.5em;
+  line-height: 2em;  
+  /*padding-bottom: 10px; 
+  border-bottom: 2px solid #cdcdcd; */
+}
+
+a.box_header {
+  text-decoration: none;
+  color: #000;
+} 
+
+a.box_header:hover {
+  font-weight: bold; 
+  cursor: pointer;
+} 
+
+.box_body {
+  text-align: justify; 
+  line-height: 1.75em;
+}
+
+#copyright {line-height: 33px; font-size: 0.8em;} 
+
+ul.nav_list { 
+  float: right;
+  /* margin-left: 50px; */
+  li {
+    display:inline;
+    float:left;
+  	margin-right: 30px;  
+  	text-align: center; 
+  	line-height: 2em; 
+  	a {
+  	  text-decoration: none;
+  	} 
+  }      
+} 
+#footer a:hover {color: #729E1B;}   
+
+#about_us_text { 
+  font-size: 1.25em;
+  line-height: 1.75em;
+  text-align: justify;
+} 
 
 /* -------------------- */
 /* Box Model
@@ -84,7 +175,9 @@ body {
   float:left;  
 }
 .mgn_10 {margin: 10px;}   
-.mgn_10_t {margin-top: 10px;}
+.mgn_10_t {margin-top: 10px;} 
+.mgn_20 {margin: 20px;}   
+.mgn_20_t {margin-top: 20px;}
 
 
 

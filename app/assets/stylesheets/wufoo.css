@@ -1,0 +1,16 @@
+.wufoo .info h2 {
+	font-size: 2.25em;
+	font-family: 'Lato', sans-serif;  
+} 
+
+.wufoo .info {
+ border-bottom: 1px solid #000;
+}  
+
+.wufoo li.focused {
+	background-color: #9AC83C;
+}
+
+.wufoo input.text, .wufoo textarea.textarea, .wufoo input.file, .wufoo select.select {
+	background-color: #cdcdcd;
+}
