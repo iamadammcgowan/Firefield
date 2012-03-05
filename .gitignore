@@ -14,8 +14,9 @@
 /log/*.log
 /tmp  
 /tmp/**/*
-tmp/   
-
+tmp/
+/config/deploy.rb
+   
 # Ignore the ds file
 .DS_Store
 
