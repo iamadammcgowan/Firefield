@@ -20,3 +20,6 @@ tmp/
 # Ignore the ds file
 .DS_Store
 
+# Ignore the database.yml file
+/config/database.yml
+
