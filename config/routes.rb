@@ -11,7 +11,7 @@ Ff::Application.routes.draw do
       
    match '/terms' => 'static#terms', :as => :terms
    match '/contact' => 'static#contact', :as => :contact
-   match '/aobut' => 'static#about', :as => :about
+   match '/about' => 'static#about', :as => :about
   
   # The priority is based upon order of creation:
   # first created -> highest priority.
