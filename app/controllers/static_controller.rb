@@ -1,32 +1,17 @@
 class StaticController < ApplicationController  
   def home
   end
-  
-  def connect
-  end
-  
+ 
   def consult
   end
-  
-  def collaborate
-  end
-  
-  def insipiration
-  end
-  
-  def talent
-  end
-  
-  def capital
-  end
-  
+    
   def about
   end
   
-  def terms
+  def contact
   end
   
-  def contact
+  def ignite
   end
   
 end
