@@ -1,13 +1,29 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Firefield</title>
     <link rel="shortcut icon" type="image/png" href="/assets/favicon.png" />  
     <link rel="apple-touch-icon" href="assets/apple-touch-icon.png" />
     <link href='http://fonts.googleapis.com/css?family=Gruppo|Droid+Sans|Inder|Lato' rel='stylesheet' type='text/css'>
     <%= stylesheet_link_tag    "application" %>
-    <%= javascript_include_tag "application" %>
+    <%= javascript_include_tag "application" %> 
+    <%= yield :head_content %>
+    <meta name="keywords" content="software development, ruby on rails, agile development, technology consulting, strategy consulting, operational consulting">   
     <%= csrf_meta_tags %>
+    <!-- Google analytics start --> 
+    <script type="text/javascript">
+
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-31224286-1']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+
+    </script>
+    <!-- Google analytics end -->  
   </head>
   <body>
     <div id="wrapper" class="<%= controller.controller_name %> <%= controller.action_name %>">
@@ -23,6 +39,7 @@
           <li><%= link_to "Home", root_path %></li>
           <li><%= link_to "Ignite", ignite_path %></li>  
           <li><%= link_to "Technology", technology_path %></li>           
+          <li><%= link_to "Clients", clients_path %></li>
           <li><%= link_to "About Us", about_path %></li> 
           <li><%= link_to "Get in Touch", contact_path %></li>
           <div class='clear'></div>
