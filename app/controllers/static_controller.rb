@@ -14,4 +14,7 @@ class StaticController < ApplicationController
   def ignite
   end
   
+  def technology
+  end
+  
 end
