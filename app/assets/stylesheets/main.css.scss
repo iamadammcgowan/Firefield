@@ -33,12 +33,24 @@ a:hover {
   background: url("firefield_header.png");
 }
 
-#ff_tagline {
-  margin-top: 50px;
-  width: 550px;
+#ff_tag_nav {  
+  height: 150px;
   float: right;  
+  text-align: right;
+}
+
+#ff_tag_nav #tagline {
+  height: 100px;
+}
+
+#ff_tag_nav #tagline #motto { 
+  padding: 35px 30px;
   font-size: 2.5em;
   font-family: 'Gruppo', sans-serif;
+} 
+
+#ff_tag_nav #home_nav { 
+  height: 50px;
 }
 
 #header_logo {

@@ -1,15 +1,37 @@
 <% if controller.controller_name == "static" && controller.action_name == "home" %>
   <div id="ff_header_container">
     <div id="ff_header">
-      <div id="ff_tagline">
-        <div>It starts with a Spark . . .</div> 
-      </div>    
+      <div id="ff_tag_nav">
+        <div id="tagline">
+          <div id="motto">It starts with a Spark . . .</div>
+        </div>
+        <div id="home_nav">
+          <ul class="nav_list" style="margin-top: 18px;">
+            <li><%= link_to "Ignite", ignite_path %></li>  
+            <li><%= link_to "Technology", technology_path %></li>           
+            <!--<li><#%= link_to "Clients", clients_path %></li> -->
+            <li><%= link_to "About Us", about_path %></li> 
+            <li><%= link_to "Get in Touch", contact_path %></li>
+            <div class='clear'></div>
+          </ul>
+          <div class="clear"></div>
+        </div> 
+      </div>       
     </div> 
   </div>
 <% else %>
   <div id="header_container">
     <div id="header">
-      <a href="<%= root_path %>"><div id="header_logo"></div></a>
+      <a href="<%= root_path %>"><div id="header_logo" class='inline' style="margin-top: 3px;"></div></a>
+      <ul class="nav_list inline">
+        <li><%= link_to "Ignite", ignite_path %></li>  
+        <li><%= link_to "Technology", technology_path %></li>           
+        <!--<li><#%= link_to "Clients", clients_path %></li> -->
+        <li><%= link_to "About Us", about_path %></li> 
+        <li><%= link_to "Get in Touch", contact_path %></li>
+        <div class='clear'></div>
+      </ul>
+      <div class="clear"></div>
     </div>
   </div>
 <% end %>
