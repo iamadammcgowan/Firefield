@@ -17,4 +17,7 @@ class StaticController < ApplicationController
   def technology
   end
   
+  def clients
+  end
+  
 end

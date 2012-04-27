@@ -1,11 +1,12 @@
 Ff::Application.routes.draw do   
   root :to => "static#home"
-   match '/consult' => 'static#consult', :as => :consult
-   match '/contact' => 'static#contact', :as => :contact
-   match '/ignite_contact' => 'static#ignite_contact', :as => :ignite_contact
-   match '/about' => 'static#about', :as => :about     
-   match '/ignite' => 'static#ignite', :as => :ignite  
-   match '/technology' => 'static#technology', :as => :technology  
+   match '/Consult' => 'static#consult', :as => :consult
+   match '/Contact-Us' => 'static#contact', :as => :contact
+   match '/Ignite-Contact' => 'static#ignite_contact', :as => :ignite_contact
+   match '/About-Us' => 'static#about', :as => :about     
+   match '/Ignite' => 'static#ignite', :as => :ignite  
+   match '/Technology' => 'static#technology', :as => :technology  
+   match '/Clients' => 'static#clients', :as => :clients   
   
   # The priority is based upon order of creation:
   # first created -> highest priority.
