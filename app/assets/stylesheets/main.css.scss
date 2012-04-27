@@ -92,7 +92,7 @@ a:hover {
   width: 300px;
   height: 238px;
  background: url('ignite_graphic.png') no-repeat #fff;  
-} 
+}   
 
 .get_started_btn {
   width: 220px;
@@ -234,7 +234,64 @@ ul.nav_list {
 .mgn_10 {margin: 10px;}   
 .mgn_10_t {margin-top: 10px;} 
 .mgn_20 {margin: 20px;}   
-.mgn_20_t {margin-top: 20px;}
+.mgn_20_t {margin-top: 20px;}  
+
+
+
+.basic_header {
+  text-align: center;
+  font-size: 2.0em;
+  font-family: 'Gruppo', sans-serif;
+  font-weight: bold;   
+} 
+
+.basic_body {
+  text-align: justify;
+  line-height: 1.25em;
+}
+
+ 
+.ror_logo {
+  width: 200px;   
+  height: 256px; 
+  background: url('ror_logo_200_256.jpg') no-repeat #fff;  
+}
+
+.github_logo { 
+  margin-left: 66px;
+  width: 240px;  
+  height: 280px;
+  background: url('github_logo_240_280.jpg') no-repeat #fff;  
+} 
+
+.aws_logo {
+  margin: 0 0 35px 105px;
+  width: 250px;  
+  height: 95px;
+  background: url('aws_logo_250_95.jpg') no-repeat #fff;  
+}
+
+._37signals_logo {
+  margin-left: 70px;  
+  width: 344px;
+  height: 85px;
+  background: url('37signals_logo_344_85.jpg') no-repeat #fff;  
+}  
+
+.pivotal_logo {
+  margin: 0 0 35px 105px;  
+  width: 270px;
+  height: 110px;
+  background: url('pivotal_logo_270_110.png') no-repeat #fff;  
+}
+
+.jquery_logo {
+  margin: 45px 0 45px 80px;
+  width: 300px;
+  height: 73px;
+  background: url('jquery_logo_300_73.gif') no-repeat #fff;  
+}
+
 
 
 
